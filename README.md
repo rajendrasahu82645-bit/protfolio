@@ -49,7 +49,7 @@ It provides visitors with an easy way to learn about my work and get in touch wi
 _Add your portfolio home-page screenshot here._
 
 ```markdown
-!<Screenshot 2026-10-24 111049.png>
+!<![Projects](screenshots/projects.png)>
 
 
 ```
