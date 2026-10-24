@@ -53,12 +53,11 @@ It provides visitors with an easy way to learn about my work and get in touch wi
 
 ### 👨‍💻 About / Skills
 
-_Add your About or Skills section screenshot here._
+![About and Skills](screenshots/about.png)
 
-```markdown
-![About and Skills](Screenshot 2026-10-24 111049.png)
-```
+### 👨‍💻 About / Skills
 
+![About and Skills](about.png)
 ### 💼 Projects Section
 
 _Add your Projects section screenshot here._
