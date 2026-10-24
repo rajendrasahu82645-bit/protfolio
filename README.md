@@ -59,7 +59,7 @@ _Add your portfolio home-page screenshot here._
 _Add your About or Skills section screenshot here._
 
 ```markdown
-![About and Skills](screenshots/about.png)
+![About and Skills](Screenshot 2026-10-24 111049.png)
 ```
 
 ### 💼 Projects Section
