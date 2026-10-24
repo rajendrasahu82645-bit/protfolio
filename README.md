@@ -49,7 +49,7 @@ It provides visitors with an easy way to learn about my work and get in touch wi
 _Add your portfolio home-page screenshot here._
 
 ```markdown
-![image ait](https://github.com/rajendrasahu82645-bit/protfolio/blob/main/Screenshot%202026-10-24%20111049.png?raw=true)
+![image alt](https://github.com/rajendrasahu82645-bit/protfolio/blob/main/Screenshot%202026-10-24%20111049.png?raw=true)
 ```
 
 ### 👨‍💻 About / Skills
