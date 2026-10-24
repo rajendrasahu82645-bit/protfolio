@@ -49,7 +49,7 @@ It provides visitors with an easy way to learn about my work and get in touch wi
 _Add your portfolio home-page screenshot here._
 
 ```markdown
-![Portfolio Home Page](screenshots/home.png)
+![Portfolio Home Page](https://github.com/rajendrasahu82645-bit/protfolio/blob/16102452bb5f85d9202b679fada308f46f159acd/Screenshot%202026-10-24%20111049.png)
 ```
 
 ### 👨‍💻 About / Skills
@@ -121,7 +121,7 @@ The main purpose of this project is to create a professional online presence and
 
 ## 👨‍💻 Developer
 
-**Chandan Dash**
+**Rajendra Sahu**
 
 💻 Web Developer | Programmer | Tech Enthusiast
 
