@@ -49,27 +49,24 @@ It provides visitors with an easy way to learn about my work and get in touch wi
 ### 🏠 Home Page
 
 ![Home Page](https://raw.githubusercontent.com/rajendrasahu82645-bit/protfolio/990c635923f664448bda2bd64b4ffc32a0ed8ed0/home.png)
-```
 
-### 👨‍💻 About / Skills
+---
 
-![About and Skills](https://github.com/rajendrasahu82645-bit/protfolio/blob/fefc612fe328e770675cf11986fd3d51df9a08d1/about.png)
+### 👨‍💻 About Me
 
-### 👨‍💻 About / Skills
+![About Me](https://raw.githubusercontent.com/rajendrasahu82645-bit/protfolio/fefc612fe328e770675cf11986fd3d51df9a08d1/about.png)
 
-![About and Skills](https://github.com/rajendrasahu82645-bit/protfolio/blob/17e7e74c0e7ede0c49cf7987ec36f3f393ea3c44/my%20skill.png)
-### 💼 Projects Section
+---
 
+### 🛠️ My Skills
+
+![My Skills](https://raw.githubusercontent.com/rajendrasahu82645-bit/protfolio/17e7e74c0e7ede0c49cf7987ec36f3f393ea3c44/my%20skill.png)
+
+---
 
 ### 📞 Contact Section
 
-_Add your Contact section screenshot here._
-
-```markdown
-![Contact](https://github.com/rajendrasahu82645-bit/protfolio/blob/82c20a29d68c7e0d1a737fba268a3e820f836216/contect.png)
-```
-
----
+![Contact](https://raw.githubusercontent.com/rajendrasahu82645-bit/protfolio/82c20a29d68c7e0d1a737fba268a3e820f836216/contect.png)
 
 ## 📂 Project Structure
 
