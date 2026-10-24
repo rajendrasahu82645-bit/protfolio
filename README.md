@@ -60,19 +60,13 @@ It provides visitors with an easy way to learn about my work and get in touch wi
 ![About and Skills](about.png)
 ### 💼 Projects Section
 
-_Add your Projects section screenshot here._
-
-```markdown
-![Projects](screenshots/projects.png)
-```
 
 ### 📞 Contact Section
 
 _Add your Contact section screenshot here._
 
 ```markdown
-![Contact](![Uploading image.png…]()
-)
+![Contact](https://github.com/rajendrasahu82645-bit/protfolio/blob/82c20a29d68c7e0d1a737fba268a3e820f836216/contect.png)
 ```
 
 ---
