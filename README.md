@@ -49,7 +49,7 @@ It provides visitors with an easy way to learn about my work and get in touch wi
 _Add your portfolio home-page screenshot here._
 
 ```markdown
-<img src="screenshots/home.png" alt="Portfolio Screenshot">
+![image alt](https://github.com/rajendrasahu82645-bit/protfolio/blob/369d3c81b58d9814acc2187abcd950767e7d517f/home.png)
 
 
 ```
