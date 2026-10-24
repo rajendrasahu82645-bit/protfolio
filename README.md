@@ -57,7 +57,7 @@ It provides visitors with an easy way to learn about my work and get in touch wi
 
 ### 👨‍💻 About / Skills
 
-![About and Skills](about.png)
+![About and Skills](https://github.com/rajendrasahu82645-bit/protfolio/blob/17e7e74c0e7ede0c49cf7987ec36f3f393ea3c44/my%20skill.png)
 ### 💼 Projects Section
 
 
