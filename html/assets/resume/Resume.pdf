@@ -1,0 +1,93 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1270 >>
+stream
+BT
+/F2 26 Tf
+50 730 Td
+(RAJENDRA SAHU) Tj
+0 -26 Td
+/F1 14 Tf
+(Full Stack Developer) Tj
+0 -20 Td
+/F1 10 Tf
+(Email: rajendrasahuuu817@gmail.com  |  Location: Odisha, India  |  Portfolio: Rajendra.in) Tj
+0 -25 Td
+/F2 13 Tf
+(PROFESSIONAL SUMMARY) Tj
+0 -16 Td
+/F1 10 Tf
+(Passionate Full Stack Developer proficient in modern frontend frameworks and backend) Tj
+0 -14 Td
+(architectures. Skilled in building responsive, accessible UIs and scalable RESTful APIs.) Tj
+0 -24 Td
+/F2 13 Tf
+(TECHNICAL SKILLS) Tj
+0 -16 Td
+/F1 10 Tf
+(Frontend: HTML5, CSS3, JavaScript (ES6+), React.js, Responsive Web Design) Tj
+0 -14 Td
+(Backend: Node.js, Express.js, RESTful APIs, JWT Authentication) Tj
+0 -14 Td
+(Databases: MongoDB, SQL / MySQL) Tj
+0 -14 Td
+(Tools & Platforms: Git, GitHub, VS Code, Postman, npm) Tj
+0 -24 Td
+/F2 13 Tf
+(FEATURED PROJECTS) Tj
+0 -16 Td
+/F2 11 Tf
+(1. Full Stack E-Commerce Web Application) Tj
+0 -14 Td
+/F1 10 Tf
+(Built with React, Node.js, Express, and MongoDB. Features user auth, cart, and payment.) Tj
+0 -18 Td
+/F2 11 Tf
+(2. Odisha Tourism & Booking Portal) Tj
+0 -14 Td
+/F1 10 Tf
+(Interactive tourist destination guide with booking engine and responsive design.) Tj
+0 -18 Td
+/F2 11 Tf
+(3. Restaurant Management & Ordering System) Tj
+0 -14 Td
+/F1 10 Tf
+(Digital menu ordering, kitchen order status tracking, and administrative dashboard.) Tj
+0 -24 Td
+/F2 13 Tf
+(EDUCATION & TRAINING) Tj
+0 -16 Td
+/F1 10 Tf
+(Full Stack Web Development Certification | 2026) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000262 00000 n 
+0000001584 00000 n 
+0000001653 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1727
+%%EOF

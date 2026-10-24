@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Rajendra Sahu - Full Stack Developer specializing in React.js, Node.js, Express, MongoDB, RESTful APIs, and modern responsive web applications.">
+    <meta name="keywords" content="Rajendra Sahu, Full Stack Developer, MERN Stack Developer, Software Engineer, React Developer, Node.js, Portfolio, Odisha India">
+    <meta name="author" content="Rajendra Sahu">
+    <title>Rajendra Sahu | Full Stack Developer</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" href="imges/rajendra-profile.jpg">
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="header">
+        <nav class="navbar">
+
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" aria-label="Toggle navigation menu" type="button">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ================= HERO ================= -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="hero-small-text">Hello, I'm</p>
+                <h1>Rajendra Sahu</h1>
+                <h2>I'm a <span id="typing-text">Full Stack Developer</span><span class="cursor">|</span></h2>
+                <p class="hero-description">
+                    I design and engineer scalable end-to-end web applications, high-performance RESTful APIs, and responsive, interactive user experiences with clean code.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">
+                        <i class="fa-solid fa-layer-group"></i> View Projects
+                    </a>
+                    <a href="assets/resume/Resume.pdf" class="btn btn-outline" download="Rajendra_Sahu_Resume.pdf">
+                        <i class="fa-solid fa-file-arrow-down"></i> Download CV
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="mailto:rajendrasahuuu817@gmail.com" aria-label="Email Directly">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-circle-wrapper">
+                    <div class="image-circle">
+                        <img src="imges/rajendra-profile.jpg" alt="Rajendra Sahu - Full Stack Developer" width="360" height="360">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section id="about" class="section about">
+            <div class="section-title">
+                <p>Get To Know Me</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-container">
+                <div class="about-image">
+                    <div class="about-image-card">
+                        <img src="imges/rajendra-profile.jpg" alt="About Rajendra Sahu" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <h3>Passionate Full Stack Developer</h3>
+                    <p>
+                        I am a full-stack developer passionate about turning complex ideas into elegant, reliable digital solutions. With expertise across both frontend interfaces and server-side systems, I bridge the gap between design and functionality.
+                    </p>
+                    <p>
+                        My core strengths include developing modern single-page applications in React, designing robust backends with Node.js and Express, modeling databases with MongoDB and SQL, and architecting secure RESTful APIs.
+                    </p>
+
+                    <div class="about-info">
+                        <div class="about-info-card">
+                            <strong>Name</strong>
+                            <span>Rajendra Sahu</span>
+                        </div>
+                        <div class="about-info-card">
+                            <strong>Role</strong>
+                            <span>Full Stack Developer</span>
+                        </div>
+                        <div class="about-info-card">
+                            <strong>Email</strong>
+                            <span>rajendrasahuuu817@gmail.com</span>
+                        </div>
+                        <div class="about-info-card">
+                            <strong>Location</strong>
+                            <span>Odisha, India</span>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn">
+                        <i class="fa-solid fa-paper-plane"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+        <section id="skills" class="section skills">
+            <div class="section-title">
+                <p>Technical Expertise</p>
+                <h2>My <span>Skills</span></h2>
+            </div>
+
+            <div class="skills-container">
+                <!-- HTML5 -->
+                <div class="skill-card">
+                    <div class="skill-icon html-icon">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>95%</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="95%"></div>
+                    </div>
+                </div>
+
+                <!-- CSS3 -->
+                <div class="skill-card">
+                    <div class="skill-icon css-icon">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>88%</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="88%"></div>
+                    </div>
+                </div>
+
+                <!-- JavaScript -->
+                <div class="skill-card">
+                    <div class="skill-icon js-icon">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>85%</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="85%"></div>
+                    </div>
+                </div>
+
+                <!-- React.js -->
+                <div class="skill-card">
+                    <div class="skill-icon react-icon">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <h3>React.js</h3>
+                    <p>82%</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="82%"></div>
+                    </div>
+                </div>
+
+                <!-- Node.js -->
+                <div class="skill-card">
+                    <div class="skill-icon node-icon">
+                        <i class="fa-brands fa-node-js"></i>
+                    </div>
+                    <h3>Node.js</h3>
+                    <p>80%</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="80%"></div>
+                    </div>
+                </div>
+
+                <!-- Express.js -->
+                <div class="skill-card">
+                    <div class="skill-icon express-icon">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <h3>Express.js</h3>
+                    <p>78%</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="78%"></div>
+                    </div>
+                </div>
+
+                <!-- MongoDB -->
+                <div class="skill-card">
+                    <div class="skill-icon mongo-icon">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <h3>MongoDB</h3>
+                    <p>76%</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="76%"></div>
+                    </div>
+                </div>
+
+                <!-- SQL / MySQL -->
+                <div class="skill-card">
+                    <div class="skill-icon sql-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3>SQL / MySQL</h3>
+                    <p>72%</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="72%"></div>
+                    </div>
+                </div>
+
+                <!-- RESTful APIs -->
+                <div class="skill-card">
+                    <div class="skill-icon api-icon">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <h3>RESTful APIs</h3>
+                    <p>84%</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="84%"></div>
+                    </div>
+                </div>
+
+                <!-- Git & GitHub -->
+                <div class="skill-card">
+                    <div class="skill-icon git-icon">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                    <h3>Git &amp; GitHub</h3>
+                    <p>86%</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="86%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+        <section id="services" class="section services">
+            <div class="section-title">
+                <p>What I Offer</p>
+                <h2>My <span>Services</span></h2>
+            </div>
+
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="service-icon-box">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>Full Stack Development</h3>
+                    <p>
+                        Comprehensive web applications from scratch, uniting reactive client interfaces with high-availability, scalable server backends.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon-box">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <h3>Backend &amp; API Architecture</h3>
+                    <p>
+                        High-performance RESTful APIs, JWT/OAuth authentication pipelines, role-based access control, and server business logic.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon-box">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3>Database Design</h3>
+                    <p>
+                        Efficient data modeling, query optimization, indexing, and management for MongoDB NoSQL and MySQL relational databases.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon-box">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <h3>Frontend Engineering</h3>
+                    <p>
+                        Pixel-perfect, mobile-first, and performant user interfaces built with React, modern CSS, and fluid micro-animations.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+        <section id="projects" class="section projects">
+            <div class="section-title">
+                <p>Featured Work</p>
+                <h2>My <span>Projects</span></h2>
+            </div>
+
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image-box">
+                        <img src="imges/project-saas.jpg" alt="SaaS E-Commerce Platform Project" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>SaaS &amp; E-Commerce Platform</h3>
+                        <p>
+                            Full-stack web application featuring user authentication, product catalog, cart system, checkout flow, and analytics dashboard.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#contact" class="btn btn-sm">Live Demo</a>
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                                <i class="fa-brands fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image-box">
+                        <img src="imges/project-tourism.jpg" alt="Odisha Tourism Portal Project" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Odisha Tourism &amp; Booking Portal</h3>
+                        <p>
+                            Destination discovery and tour booking platform highlighting heritage sites, temples, and beaches with interactive maps.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">REST API</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#contact" class="btn btn-sm">Live Demo</a>
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                                <i class="fa-brands fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image-box">
+                        <img src="imges/project-restaurant.jpg" alt="Restaurant Management System" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Restaurant Ordering System</h3>
+                        <p>
+                            Real-time food ordering and kitchen management platform with interactive digital menu, table bookings, and admin panel.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#contact" class="btn btn-sm">Live Demo</a>
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                                <i class="fa-brands fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image-box">
+                        <img src="imges/project-portfolio.jpg" alt="Personal Portfolio Showcase" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Developer Portfolio Showcase</h3>
+                        <p>
+                            High-performance portfolio built with modern dark glassmorphic aesthetics, fluid micro-animations, and responsive layouts.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">Modern CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Full Stack</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#home" class="btn btn-sm">Live Demo</a>
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                                <i class="fa-brands fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image-box">
+                        <img src="imges/project-travel.jpg" alt="Travel Explorer Web App" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Travel &amp; Destination Explorer</h3>
+                        <p>
+                            Interactive travel exploration platform with curated destination guides, verified reviews, custom itineraries, and search filters.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">REST API</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#contact" class="btn btn-sm">Live Demo</a>
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                                <i class="fa-brands fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= EXPERIENCE ================= -->
+        <section id="experience" class="section experience">
+            <div class="section-title">
+                <p>Career Milestones</p>
+                <h2>My <span>Experience</span></h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-date">2026 - Present</span>
+                    <h3>Full Stack Web Engineering</h3>
+                    <p>
+                        Architecting and building production-ready full-stack applications with React, Node.js, Express, and MongoDB. Integrating secure authentication, RESTful APIs, and responsive styling.
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-date">2026</span>
+                    <h3>Web Engineering Foundations</h3>
+                    <p>
+                        Mastered core frontend fundamentals, semantic HTML5, modern CSS3 styling, JavaScript ES6+, backend programming, and relational database management.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+        <section id="contact" class="section contact">
+            <div class="section-title">
+                <p>Get In Touch</p>
+                <h2>Contact <span>Me</span></h2>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's build something remarkable</h3>
+                    <p>
+                        Whether you have an upcoming project, a freelance opportunity, or would like to collaborate, my inbox is always open.
+                    </p>
+
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="contact-item-text">
+                            <strong>Email</strong>
+                            <span>rajendrasahuuu817@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="contact-item-text">
+                            <strong>Location</strong>
+                            <span>Odisha, India</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <div class="contact-item-text">
+                            <strong>Availability</strong>
+                            <span>Open for Full-time &amp; Projects</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="contact-name">Your Name</label>
+                        <input type="text" id="contact-name" name="name" placeholder="Rajendra Sahu" required autocomplete="name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-email">Your Email</label>
+                        <input type="email" id="contact-email" name="email" placeholder="example@domain.com" required autocomplete="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-subject">Subject</label>
+                        <input type="text" id="contact-subject" name="subject" placeholder="Project Inquiry / Job Opportunity" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-message">Your Message</label>
+                        <textarea id="contact-message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">
+                        <i class="fa-solid fa-paper-plane"></i> Send Message
+                    </button>
+                    <p id="form-status" class="form-status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Rajendra Sahu. All Rights Reserved. Crafted with passion &amp; modern web technologies.</p>
+            <div class="footer-social">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="mailto:rajendrasahuuu817@gmail.com" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" type="button">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
